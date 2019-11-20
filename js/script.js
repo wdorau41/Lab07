@@ -1,9 +1,12 @@
 function init(){
 
 
-  document.getElementById("entrybutton").addEventListener("click", alert("Walter Dorau:", getElementById("entryinput"));
+  document.getElementById("entrybutton").addEventListener("click", myfunction());
 }
 
+function myfunction(){
+  alert("Walter Dorau:", getElementById("textentry"));
+}
 
 
 window.addEventListener('load', init);
