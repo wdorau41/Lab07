@@ -1,12 +1,9 @@
 function init(){
-//add your javascrip between these two lines of code
 
 
-
-
-
+  document.getElementById("entrybutton").addEventListener("click", alert("Walter Dorau:", getElementById("entryinput"));
+}
 
 
 
 window.addEventListener('load', init);
-© 2019 GitHub, Inc.
